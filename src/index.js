@@ -2,10 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 const App = () =>{
-  console.log("Hello from Component");
+  const now = new Date();
+  const a = 5;
+  const b = 10;
+
   return(
     <div>
-      <p>Hello World</p>
+      <p>Hello World, It is {now.toString()}</p>
+      <p> {a} + {b} is {a + b}.</p>
     </div>
   )
 }
