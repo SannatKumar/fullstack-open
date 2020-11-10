@@ -1,3 +1,10 @@
+# Description
+
+This Project is a part of the full stack open course provided by full stack open websites in corporation with different companies of finland 
+to develop, and contribute the content and support the learners after completing the course with study credits and job Offers. 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
