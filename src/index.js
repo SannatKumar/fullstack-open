@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const App = () => (
-  <div>
-    <p>Hello World</p>
-  </div>
-)
+const App = () =>{
+  console.log("Hello from Component");
+  return(
+    <div>
+      <p>Hello World</p>
+    </div>
+  )
+}
 ReactDOM.render(<App />,  document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
