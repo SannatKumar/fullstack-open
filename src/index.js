@@ -4,18 +4,19 @@ import ReactDOM from 'react-dom';
 const Hello = (props) => {
   return(
     <div>
-      <p>Hello Universe.</p>
-      <p>{props.name}</p>
+      <p>{props.name}, You are {props.age} years old.</p>
     </div>
   )
 }
 const App = () => {
+  const name= 'Maya';
+  const age= 32;
   return(
     <div>
       <h1>Greetings</h1>
-      <Hello />
-      <Hello name="Raj Kumar"/>
-      <Hello name="Krishna"/>
+      <Hello name={name} age= {age} />
+      <Hello name="Raj Kumar" age = "25" />
+      <Hello name="Krishna" age = {25+6}/>
     </div>
   )
 }
